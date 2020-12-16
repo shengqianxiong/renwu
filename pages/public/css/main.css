@@ -1,0 +1,93 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	/* margin-top: 128upx; */
+}
+
+/* 头部 logo */
+.header {
+	text-align: center;
+
+	width:161upx;
+	height:161upx;
+	box-shadow:0upx 0upx 60upx 0upx rgba(0,0,0,0.1);
+	border-radius:50%;
+	background: -moz-linear-gradient(left, #F15B6C, #e10a07 100%);
+	background: -webkit-gradient(linear, left top, left right, color-stop(0, #F15B6C), color-stop(100%, #e10a07));
+	background: -webkit-linear-gradient(left, #F15B6C 0, #e10a07 100%);
+	background: -o-linear-gradient(left, #F15B6C 0, #e10a07 100%);
+	background: -ms-linear-gradient(left, #F15B6C 0, #e10a07 100%);
+	background: linear-gradient(to left, #F15B6C 0, #e10a07 100%);
+	margin-top: 180upx;
+	margin-bottom: 72upx;
+	font-size: 60upx;
+	color: white;
+	font-weight: bold;
+	padding-top: 32upx;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header image{
+	width:161upx;
+	height:161upx;
+	border-radius:50%;
+}
+
+/* 主体 */
+.main {
+	display: flex;
+	flex-direction: column;
+	padding-left: 70upx;
+	padding-right: 70upx;
+}
+.tips {
+	color: #999999;
+	font-size: 28upx;
+	margin-top: 64upx;
+	margin-left: 48upx;
+}
+
+/* 其他登录方式 */
+.other_login{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 256upx;
+	text-align: center;
+}
+.login_icon{
+	border: none;
+	font-size: 64upx;
+	margin: 0 64upx 0 64upx;
+	color: rgba(0,0,0,0.7)
+}
+.wechat_color{
+	color: #83DC42;
+}
+.weibo_color{
+	color: #F9221D;
+}
+.github_color{
+	color: #24292E;
+}
+
+/* 底部 */
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 28upx;
+	margin-top: 64upx;
+	color: rgba(0,0,0,0.7);
+	text-align: center;
+	height: 40upx;
+	line-height: 40upx;
+}
+.footer text{
+	font-size: 24upx;
+	margin-left: 15upx;
+	margin-right: 15upx;
+}
